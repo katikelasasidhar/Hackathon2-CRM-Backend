@@ -38,7 +38,7 @@ app.use("/api/employeedashboard", employeeDashboardRoute);
 
 app.get("/", (req, res) => {
   res.send(
-    `<a href="https://github.com/shelcia/CRM-backend">This is a backend app , click to open code</a>`
+    `<a href="https://github.com/katikelasasidhar/Hackathon2-CRM-Backend.git">This is a backend app , click to open code</a>`
   );
 });
 app.listen(PORT, () => console.log(`server up and running at  ${PORT}`));
